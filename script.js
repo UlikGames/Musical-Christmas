@@ -112,10 +112,10 @@ function loadAudio(i) {
   document.getElementById("overlay").innerHTML =
     '<div class="text-loading">Please Wait...</div>';
   const files = [
-    "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Simon_Panrucker/Happy_Christmas_You_Guys/Simon_Panrucker_-_01_-_Snowflakes_Falling_Down.mp3",
-    "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Dott/This_Christmas/Dott_-_01_-_This_Christmas.mp3",
-    "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/TRG_Banks/TRG_Banks_Christmas_Album/TRG_Banks_-_12_-_No_room_at_the_inn.mp3",
-    "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Mark_Smeby/En_attendant_Nol/Mark_Smeby_-_07_-_Jingle_Bell_Swing.mp3",
+    "./snowflakes.mp3",
+    "./thischristmas.mp3",
+    "./noroom.mp3",
+    "./jinglebell.mp3",
   ];
   const file = files[i];
 
